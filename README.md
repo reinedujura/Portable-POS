@@ -8,7 +8,6 @@ Follow the steps below to ensure the project is set up correctly:
    - Run the following commands:
      ```powershell
      .\venv\Scripts\Activate.ps1
-     pip install -r requirements.txt
      ```
 
 2. **Update Project-Specific Files**:
