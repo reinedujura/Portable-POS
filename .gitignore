@@ -73,6 +73,7 @@ docs/
 *.sqlite
 mongodb_data/
 dump/
+backup/
 
 # POS System Specific Files
 receipts/
