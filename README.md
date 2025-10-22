@@ -1,6 +1,6 @@
-# Capstone Project
+# Portable POS
 
-This project is based on the Template folder. Follow the steps below to ensure the project is set up correctly:
+Follow the steps below to ensure the project is set up correctly:
 
 ## Steps to Set Up the Project
 
