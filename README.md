@@ -51,10 +51,6 @@ Follow the steps below to ensure the project is set up correctly:
 - `.env`: Environment variables file.
 - `requirements.txt`: Python dependencies.
 
-## Notes
-
-- This project is a duplicate of the Template folder. Ensure any changes made here are reflected in the Template folder if they are generic improvements.
-
 ## Theme Visual Tests
 
 There is a Playwright-based visual test to capture screenshots while cycling the app themes.
