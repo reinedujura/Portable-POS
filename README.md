@@ -7,7 +7,6 @@ Follow the steps below to ensure the project is set up correctly:
 1. **Activate the Virtual Environment**:
    - Run the following commands:
      ```powershell
-     cd Capstone
      .\venv\Scripts\Activate.ps1
      pip install -r requirements.txt
      ```
