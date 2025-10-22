@@ -15,19 +15,10 @@ Follow the steps below to ensure the project is set up correctly:
    - Update `.env` with project-specific environment variables.
 
 3. **Run the Application**:
-   - **Easy Start (Recommended):**
-     ```powershell
-     .\start.bat
-     ```
-     This shows helpful access URLs and starts the POS system.
-   
-   - **Or manually:**
-     ```powershell
-     ## Quick Start
+   - **powershell**
+   streamlit run frontend/app.py --server.address=0.0.0.0
 
-     streamlit run frontend/app.py --server.address=0.0.0.0
-
-(Configuration is in `frontend/.streamlit/config.toml`)
+   (Configuration is in `frontend/.streamlit/config.toml`)
      ```
 
 4. **Access the Application**:
@@ -37,8 +28,6 @@ Follow the steps below to ensure the project is set up correctly:
    
    - **On your phone (same WiFi):**
      - 📱 `https://192.168.1.4:8502` (your local IP)
-   
-   - **❌ DON'T USE:** `https://0.0.0.0:8502` (won't work - server binding address only)
 
 ## Folder Structure
 
