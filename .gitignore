@@ -1,0 +1,163 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+pyvenv.cfg
+
+# Environment Variables & Configuration
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config.ini
+config.json
+secrets.json
+credentials.json
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-workspace
+.sublime-project
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Temporary Folders (if recreated)
+logs/
+data/
+scripts/
+docs/
+
+# Database Files
+*.db
+*.sqlite3
+*.sqlite
+mongodb_data/
+dump/
+
+# POS System Specific Files
+receipts/
+generated_pdfs/
+exports/
+reports/
+customer_exports/
+backup_data/
+
+# Sensitive Business Data
+pins.txt
+business_credentials.txt
+api_keys.txt
+mongodb_connection.txt
+email_credentials.txt
+
+# Temporary Files
+*.tmp
+*.temp
+*~
+.cache/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Streamlit
+frontend/.streamlit/config.toml
+frontend/.streamlit/logs/
+
+# SSL Certificates (mkcert)
+certs/
+*.pem
+*.key
+*.crt
+*.pfx
+*.cer
+
+# AI/ML Models (if any)
+*.pkl
+*.joblib
+*.h5
+*.pb
+
+# System Files
+*.pid
+*.seed
+*.pid.lock
+
+# Archive Files
+*.zip
+*.tar.gz
+*.rar
+
+# Node.js (if using any JS/Node tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test Files
+test_results/
+.pytest_cache/

@@ -1,0 +1,36 @@
+# FastAPI and web framework dependencies
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+pydantic[email]==2.10.3
+
+# MongoDB dependencies
+pymongo==4.10.1
+
+# Security dependencies
+bcrypt==4.2.1  # For secure PIN hashing
+
+# Environment management
+python-dotenv==1.0.1
+
+# Streamlit for web UI
+streamlit==1.41.0
+pandas==2.2.3
+requests==2.32.3
+
+# API server dependencies (for React integration)
+flask==3.0.0
+flask-cors==4.0.0
+
+# Excel and PDF export
+openpyxl==3.1.5
+xlsxwriter==3.2.0
+
+# Additional useful packages for development
+python-multipart==0.0.20  # For file uploads in FastAPI if needed
+
+# AI/ML and LLM Dependencies
+langchain==0.2.0
+langchain-google-genai==1.0.3
+google-generativeai==0.4.0
+langgraph==0.0.64
+langchain-core==0.2.0
