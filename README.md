@@ -80,7 +80,7 @@ Portable-POS/
 
 From the project root directory:
 ```powershell
-streamlit run frontend/app.py --server.address=0.0.0.0
+streamlit run frontend/app.py --server.address=127.0.0.0
 ```
 
 Configuration is in `frontend/.streamlit/config.toml`
@@ -128,12 +128,12 @@ Then access: `http://localhost:8000/docs` (Swagger UI)
 ```env
 MONGODB_URI=your_mongodb_connection_string
 GOOGLE_API_KEY=your_gemini_api_key
-STREAMLIT_SERVER_ADDRESS=0.0.0.0
+STREAMLIT_SERVER_ADDRESS=127.0.0.0
 ```
 
 ### Streamlit Config (frontend/.streamlit/config.toml)
 
-- Server address: `0.0.0.0`
+- Server address: `127.0.0.0`
 - Port: `8502`
 - SSL certificates: `../certs/` (mkcert)
 
